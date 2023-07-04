@@ -35,7 +35,6 @@ High Dynamic Range Imaging (HDRI) for dynamic scenes often suffers from intensit
   
 You can create a new [Anaconda](https://www.anaconda.com/products/individual) environment as follows.
 <br>
-```
 Clone this repository.
 ```
 git clone https://github.com/lixiaopeng123456/E-BL2SH.git
