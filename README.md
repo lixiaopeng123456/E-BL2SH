@@ -14,9 +14,7 @@ High Dynamic Range Imaging (HDRI) for dynamic scenes often suffers from intensit
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="./figs/static.png" width = "75%" alt=""/>
     <br>
-    
 </center>
-
 <center>
 <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -28,7 +26,6 @@ High Dynamic Range Imaging (HDRI) for dynamic scenes often suffers from intensit
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="./figs/dynamic.png" width = "75%" alt=""/>
     <br>
-    
 </center>
 
 ## Environment setup
@@ -36,3 +33,15 @@ High Dynamic Range Imaging (HDRI) for dynamic scenes often suffers from intensit
 - Pytorch 2.0.0
 - NVIDIA GPU + CUDA 11.7
   
+You can create a new [Anaconda](https://www.anaconda.com/products/individual) environment as follows.
+<br>
+```
+Clone this repository.
+```
+git clone https://github.com/lixiaopeng123456/E-BL2SH.git
+```
+Install the above dependencies.
+```
+cd E-BL2SH
+conda env create -f EBL2SH.yaml
+```
