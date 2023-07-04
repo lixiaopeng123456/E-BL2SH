@@ -46,7 +46,7 @@ conda env create -f EBL2SH.yaml
 ```
 
 ## EBL2SH-ERGB Dataset Benchmark
-[Pretrained models](https://drive.google.com/drive/folders/) can be downloaded via Google Drive.
+[The datasets](https://drive.google.com/drive/folders/) can be downloaded via Google Drive.
 <br>
 The EBL2SH-ERGB Dataset contains three types of data:
 - **EBL2SH-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. Specifically, the blurry LDR image is obtained by averaging 13 consecutive LDR images, with corresponding HDR images serving as the sharp HDR sequence. We utilize the ESIM simulator \cite{rebecq2018esim} to synthesize concurrent events for each blurry LDR image.
