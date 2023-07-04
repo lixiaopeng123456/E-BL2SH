@@ -12,7 +12,7 @@ High Dynamic Range Imaging (HDRI) for dynamic scenes often suffers from intensit
   	</div>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./figs/gev.png" width = "75%" alt=""/>
+    src="./figs/static.png" width = "75%" alt=""/>
     <br>
     
 </center>
@@ -26,7 +26,7 @@ High Dynamic Range Imaging (HDRI) for dynamic scenes often suffers from intensit
   	</div>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./figs/gev.png" width = "75%" alt=""/>
+    src="./figs/dynamic.png" width = "75%" alt=""/>
     <br>
     
 </center>
