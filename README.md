@@ -48,8 +48,8 @@ conda env create -f EBL2SH.yaml
 ## EBL2SH-ERGB Dataset Benchmark
 
 <br>
-In our paper, we conduct experiments on three types of data:
-- **Fastec-RS** contains synthetic RS images from [DeeplUnrollNet](https://github.com/ethliup/DeepUnrollNet). We first convert low frame rate into high frame rate GS videos using [Superslomo](https://github.com/avinashpaliwal/Super-SloMo), and then generate events by [V2E](https://github.com/SensorsINI/v2e).
-- **Gev-RS** contains synthetic RS images and synthetic events from [EvUnroll](https://github.com/zxyemo/EvUnroll), where RS images are generated using the same manner as Fastec-RS.
-- **Gev-Real-RS** contains real-world RS images and real-world events from [EvUnroll](https://github.com/zxyemo/EvUnroll).
-- We built a real-world dataset **DRE** which contains real-world RS images and real-world events. (The data is coming soon.)
+The EBL2SH-ERGB Dataset contains three types of data:
+- **EBL2SH-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. Specifically, the blurry LDR image is obtained by averaging 13 consecutive LDR images, with corresponding HDR images serving as the sharp HDR sequence. We utilize the ESIM simulator \cite{rebecq2018esim} to synthesize concurrent events for each blurry LDR image.
+- **EBL2SH-RS** contains aligned real-world blurry LDR images, sharp HDR sequence, and real-world event streams images, which are captured by FLIR BFS-U3-32S4 camera, FLIR BFS-U3-04S2 camera, and SilkyEvCam event camera in static scenes.
+- **EBL2SH-RD** contains aligned real-world blurry LDR images, sharp LDR images, and real-world event streams images, which are captured by FLIR BFS-U3-32S4 camera, FLIR BFS-U3-04S2 camera, and SilkyEvCam event camera in dynamic scenes.
+
